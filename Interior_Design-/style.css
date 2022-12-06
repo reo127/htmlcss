@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+header {
+    background-image: linear-gradient(270deg, rgb(52 53 113 / 33%) 37%, rgb(52 53 113 / 33%) 100%),
+    url('./images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ========================================= */
+/* ================ Navber ================= */
+/* ========================================= */
+
+nav {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0rem 3rem;
+}
+
+.logo {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 3rem 4rem;
+    font-weight: 900;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.item:nth-of-type(5) {
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 2rem;
+    margin-right: 10px;
+    transform: rotate(324deg);
+}
+
+.line {
+    width: 60vw;
+    float: right;
+    border: 2px solid #fff;
+    border-radius: 3rem;
+    position: relative;
+    right: 5rem;
+}
+
+
+
+/* =============================================== */
+/* ================ Hero Section ================= */
+/* =============================================== */
+
+.hero {
+    width: 100vw;
+}
+
+.right {
+    margin-top: 12rem;
+    margin-left: 8rem;
+}
+
+.hero > .right > h1 {
+    color: #fff;
+    font-size: 6rem;
+    font-weight: 900;
+    text-shadow: 0 0 1px black;
+    width: 1000vw;
+}
+
+.btn {
+    all: unset;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    border: 5px solid #fff;
+    padding: 1rem 3rem;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #7193C6;
+    border: 5px solid  #7193C6;
+}
+
+.pazzle {
+    position: absolute;
+    top: 12rem;
+    right: 1rem;
+}
+
+.bulb {
+    position: absolute;
+    right: 20rem;
+    bottom: 0rem;
+    width: 34rem;
+}
+
+@media screen and (max-width:1554px) {
+    .logo {
+        font-size: 1.5rem;
+        margin-top: 0rem;
+        margin-left: 0rem;
+    }
+
+    .item {
+        color: #fff;
+        font-size: 1.2rem;
+        margin: 2rem 1rem;
+        font-weight: 900;
+        cursor: pointer;
+        transition: .3s ease;
+    }
+}
+
+@media screen and (max-width: 1413px) {
+    .pazzle {
+        position: absolute;
+        top: 37rem;
+        right: 0rem;
+    }
+
+    .hero > .right > h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:874px) {
+    nav {
+        justify-content: center;
+        padding: 0rem 0rem;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .right {
+        margin-top: 5rem;
+        margin-left: 0rem;
+    }
+
+    .bulb {
+        right: initial;
+        bottom: 0rem;
+        width: 26rem;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .item {
+
+        font-size: .6rem;
+        margin: 2rem 1rem;
+
+    }
+}
+
+@media screen and (max-width: 592px) {
+    .hero > .right > h1 {
+        font-size: 2.5rem;
+    }
+
+    .btn {
+        margin-left: 2rem;
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+
+    .bulb {
+        width: 22rem;
+    }
+
+    .pazzle {
+        position: absolute;
+        top: 35rem;
+        right: 0rem;
+        width: 20rem;
+    }
+
+}
+

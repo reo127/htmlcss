@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* ------------------- */
+/* ------ Navber ----- */
+/* ---------------------*/
+
+nav{
+display: flex;
+align-items: center;
+margin: 3rem 0rem;
+}
+
+.logo{
+    padding: 0rem 5rem;
+    cursor: pointer;
+}
+
+.list{
+display: flex;
+align-items: center;
+}
+
+.list-item{
+    color: #888;
+    margin: 1rem 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.list-item:hover {
+    color: #5A20CB;
+}
+
+.action{
+    color: #111;
+    font-weight: 500;
+}
+
+.button-group{
+    position: absolute;
+    right: 4rem;
+}
+
+.nav-button {
+    all: unset;
+    background: #5A20CB;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 1.4rem;
+    padding: 1rem 3rem;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+/* ------------------- */
+/* ------ Hero section ----- */
+/* ---------------------*/
+
+
+.banner-container {
+}
+
+.left-div {
+    width: 50rem;
+    margin-left: 5rem;
+    margin-top: 0rem;
+
+}
+
+
+.heading-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 7rem;
+    margin-top: 5rem;
+    color: #231146;
+    font-weight: 600;
+    display: inline-table;
+    line-height: 8rem;
+}
+
+span{
+color: #5A20CB;
+}
+
+.description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    color: #555;
+    margin-top: 3rem;
+    width: 27vw;
+}
+
+.btn {
+    margin-top: 5rem;
+}
+
+.image {
+    width: 70rem;
+    height: 49rem;
+}
+
+.image-div {
+    position: absolute;
+    right: -6rem;
+    bottom: 0rem;
+}

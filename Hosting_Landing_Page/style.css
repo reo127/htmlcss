@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+/* =========================================== */
+/* ============ Common Components ============== */
+/* =========================================== */
+
+
+.btnc {
+    all: unset;
+    background: linear-gradient(163deg, rgba(68, 137, 238, 1) 37%, rgba(47, 49, 167, 1) 100%);
+    color: #fff;
+    font-weight: 700;
+    padding: 1rem 3rem;
+    border-radius: 11px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    all: unset;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(55deg, #3b80e7, #0f118b) 1;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 30px;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(179deg, #3b80e7, #0f118b);
+    font-weight: 700;
+    font-size: 1.3rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section {
+    padding: 5rem 6rem;
+}
+
+.tc {
+    text-align: center;
+}
+
+.item_center {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg_black {
+    background: #333;
+}
+
+.tx_b {
+    color: #333;
+}
+
+.tx_w {
+    color: #fff;
+}
+
+.tx_g {
+    color: #555;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.f3 {
+    font-size: clamp(1rem, 6vw, 3rem);
+}
+
+.f {
+    display: flex;
+}
+
+.ac {
+    align-items: center;
+}
+
+.jc {
+    justify-content: center;
+}
+
+.js {
+    justify-content: space-between;
+}
+
+.f_w {
+    flex-wrap: wrap;
+}
+
+.my_2 {
+    margin-top: 2rem;
+}
+
+
+
+
+/* =========================================== */
+/* ===================== Navber ====================== */
+/* =========================================== */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2rem 6rem;
+}
+
+nav>img {
+    position: absolute;
+    left: 4rem;
+}
+
+.nav_items {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav_item {
+    padding: 1rem 2rem;
+}
+
+.action {
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.nav_item>a {
+    all: unset;
+}
+
+.register_btn {
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(55deg, #3b80e7, #0f118b) 1;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 30px;
+}
+
+#register_ancher {
+    background-image: linear-gradient(179deg, #3b80e7, #0f118b);
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@media screen and (max-width: 1174px) {
+    nav {
+        padding: 2rem 1rem;
+    }
+
+    nav>img {
+        left: 1rem;
+    }
+}
+
+@media screen and (max-width: 1036px) {
+    .nav_items {
+        position: absolute;
+        top: 7rem;
+        left: 12%;
+    }
+
+    .nav_item {
+        padding: 0.2rem 0.5rem;
+    }
+
+    .nav_item>a {
+        font-size: .7rem;
+    }
+
+
+}
+
+
+/* =========================================== */
+/* ===================== Hero One ====================== */
+/* =========================================== */
+
+
+.btn_choose_pkg {
+    margin-top: 4rem;
+}
+
+.hero_one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    flex-wrap: wrap-reverse;
+}
+
+.heroa_one_lift {
+    max-width: 48rem;
+}
+
+.hero_one_lift>h1 {
+    font-size: clamp(1rem, 10vw, 5rem);
+    color: #333;
+    max-width: 48rem;
+
+}
+
+.hero_one_lift>p {
+    max-width: 40rem;
+    font-size: 1.3rem;
+    color: #555;
+    margin-top: 3rem;
+}
+
+.hero_one>img {
+    width: 45rem;
+}
+
+@media screen and (max-width:650px) {
+    section{
+        padding: 5rem 1rem;
+    }
+}
+
+
+/* =========================================== */
+/* ===================== Hero Two ====================== */
+/* =========================================== */
+
+.hero_two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    flex-wrap: wrap;
+}
+
+.hero_two>img {
+    width: 45rem;
+}
+
+.hero_two>.hero_two_right>h1 {
+    font-size: clamp(1rem, 10vw, 5rem);
+    color: #333;
+}
+
+.hero_two>.hero_two_right>p {
+    /* max-width: 40rem; */
+    font-size: 1.3rem;
+    color: #555;
+    margin-top: 3rem;
+    max-width: 48rem;
+}
+
+
+/* =========================================== */
+/* ===================== Hero Three ====================== */
+/* =========================================== */
+
+
+.hero_three {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    flex-wrap: wrap;
+}
+
+.hero_three_left>h1 {
+    font-size: clamp(1rem, 10vw, 5rem);
+    color: #333;
+}
+
+.hero_three_left>p {
+    font-size: 1.3rem;
+    color: #555;
+    margin-top: 3rem;
+    max-width: 48rem;
+}
+
+.hero_three>img {
+    width: 45rem;
+}
+
+
+/* =========================================== */
+/* ===================== Service Section ====================== */
+/* =========================================== */
+
+.services {}
+
+.services>.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services>.top>h1 {
+    font-family: 'Open Sans';
+    font-size: clamp(1rem, 10vw, 5rem)
+
+}
+
+.services>.top>p {
+    font-family: 'Open Sans';
+    font-size: clamp(.8rem, 3vw, 1.5rem);
+    max-width: 50rem;
+    color: #333;
+}
+
+.bottom {
+    padding: 4rem 0rem;
+}
+
+
+.gride_items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Open Sans';
+}
+
+.gride_item {
+    padding: 2rem;
+}
+
+.gride_item>h2 {
+    font-size: 2rem;
+    color: #333;
+    padding: 1.2rem 0;
+}
+
+.gride_item>p {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+@media screen and (max-width: 830px) {
+    .gride_items{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .gride_items{
+        grid-template-columns: auto;
+    }
+}
+
+
+
+/* =========================================== */
+/* ===================== Pricing Section ====================== */
+/* =========================================== */
+
+.pricing {
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(179deg, #3b80e7, #0f118b);
+}
+
+.pricing>h1 {
+    color: #fff;
+    text-align: center;
+    font-size: clamp(1rem, 8vw, 3.5rem);
+    margin-bottom: 4rem;
+}
+
+.pricing_packges {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pricing_packge {
+    background: #fff;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.pricing_packge>h2 {
+    font-size: clamp(1rem, 3vw, 2rem);
+    margin: 1rem 0rem;
+    color: #333;
+}
+
+.pricing_packge>p {
+    color: #555;
+}
+
+.amount {
+    margin: 2rem 0rem;
+}
+
+.amount>p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.amount>h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+.amount>h1>span {
+    color: #888;
+}
+
+.pricing_packge>ul {
+    padding: 2rem 3rem;
+}
+
+.pricing_packge>ul>li {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 2rem 0rem;
+}
+
+.icon_style {
+    color: #008000;
+    margin-right: 2rem;
+}
+
+.btn_price_margin {
+    margin: 1rem 4rem;
+}
+
+.headings {
+    padding: 2rem 2rem;
+    border-radius: 12px;
+}
+
+.headings>h2 {
+    font-size: clamp(1rem, 3vw, 2.5rem);
+    margin: 1rem 0rem;
+}
+
+
+@media screen and (max-width: 430px) {
+    .pricing_packge{
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .pricing_packge>ul {
+        padding: 0rem 2rem;
+    }
+    
+    .pricing_packge>ul>li {
+        font-size: 1rem;
+        margin: 1.5rem 0rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .pricing_packges{
+        justify-content: center;
+    }
+}
+
+
+/* =========================================== */
+/* ===================== Customer Section ====================== */
+/* =========================================== */
+
+
+.customer {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(166deg, rgba(255, 255, 255, 1) 37%, rgba(255, 248, 248, 1) 100%);
+}
+
+.customer>.top>h1 {
+    font-size: clamp(1rem, 3vw, 4rem);
+}
+
+.customer>.top>p {
+    max-width: 68rem;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: clamp(.8rem, 1.5vw, 1.4rem);
+}
+
+
+.customer_cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2px;
+}
+
+.customer_card {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 2px #000;
+    max-width: 41rem;
+    margin-top: 5rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+    /* min-width: 18rem; */
+}
+
+.customer_card>p {
+    max-width: 38rem;
+    margin: 1rem 0rem;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.customer_info {
+    margin: 1rem 0rem;
+}
+
+.customer_data {
+    margin-left: 2rem;
+    line-height: 2rem;
+}
+
+@media screen and (max-width:650px) {
+    .customer_cards {
+        grid-template-columns: auto;
+    }
+
+    .customer_card{
+        margin-top: 2rem;
+    }
+}
+
+
+/* =========================================== */
+/* ===================== Register Section ====================== */
+/* =========================================== */
+
+.register {
+    background: linear-gradient(139deg, #3b80e7, #0f118b);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.register_left {
+    max-width: 45rem;
+}
+
+.register_left>h1 {
+    font-size: clamp(.8rem, 4vw, 4rem);
+}
+
+.register_left>p {
+    margin-top: 3rem;
+}
+
+.register_now_btn {
+    all: unset;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 1.3rem;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:650px) {
+    .register {
+        text-align: center;
+    }
+
+    .register_now_btn {
+        font-size: 1rem;
+        padding: .8rem 2rem;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .footer {
+        font-family: 'Open Sans', sans-serif;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo_section>p {
+        line-height: 1.3rem;
+        margin: 1rem 0rem;
+    }
+
+    .f-col {
+        margin-bottom: 3rem;
+    }
+
+    .menu_section>a, .links_sectio>a, .overvie>a {
+        margin-top: 1rem !important;
+    }
+}
+
+
+/* =========================================== */
+/* ===================== Footer Section ====================== */
+/* =========================================== */
+
+.f-col {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo_section>p {
+    max-width: 26rem;
+    line-height: 2rem;
+    font-size: clamp(.8rem, 2vw, 1.5rem);
+}
+
+.footer {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu_section>a,
+.links_sectio>a,
+.overvie>a {
+    all: unset;
+    color: #333;
+    margin-top: 2rem;
+}
+
+
+
+/* =========================================== */
+/* ===================== Making responsive ====================== */
+/* =========================================== */
+
+@media screen and (max-width:650px) {
+    section{
+        padding: 5rem 1rem;
+    }
+}

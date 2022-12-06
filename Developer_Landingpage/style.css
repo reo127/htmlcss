@@ -1,0 +1,420 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+
+/* ======================================== */
+/* ================ Header ================ */
+/* ======================================== */
+
+header {
+  background-color: #3944F7;
+  height: 65vh;
+  padding: 2rem 3rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  position: absolute;
+  right: 0rem;
+}
+
+.nav-item {
+  color: #fff;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.nav-item-active {
+  background: #fff;
+  padding: 7px 20px;
+  border-radius: 11px;
+  color: #663399;
+  cursor: pointer;
+}
+
+.logo {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.header-text {
+  margin-top: 8rem;
+  margin-left: 4rem;
+}
+
+.header-text>h2 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 5rem;
+}
+
+.header-text>p {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+.header-image {
+  position: absolute;
+  right: 0rem;
+  width: 48rem;
+  top: 6rem;
+}
+
+.companies {
+  margin-top: 1rem;
+  padding-top: 2rem;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.company-items:hover {
+  color: #3944F7;
+}
+
+
+.company-items {
+  all: unset;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0rem 2rem;
+}
+
+/* ======================================== */
+/* ================ API Section ================ */
+/* ======================================== */
+
+
+.api-heading {
+  margin-top: 6rem;
+  margin-left: 5rem;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 2rem 5rem;
+  flex-wrap: wrap;
+}
+
+.card-active {
+  box-shadow: 0px 0px 8px 0px black;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+
+/* ======================================== */
+/* ================ Blog Section ================ */
+/* ======================================== */
+
+
+.blog-heading {
+  margin-top: 6rem;
+  margin-left: 5rem;
+}
+
+.blog-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  display: flex;
+  box-shadow: 0px 0px 9px 0px black;
+  border-radius: 84px 15px 15px 21px;
+}
+
+.blog-image {
+  width: 100%;
+}
+
+.blog-image > img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog-content {
+  padding: 1rem 3rem;
+}
+
+.blog-content>h3 {
+  margin: 2rem 0rem;
+}
+
+
+.blog-bottom {
+  padding: 1rem;
+}
+
+.blog-author {
+  padding: 2rem 0.5rem;
+}
+
+
+/* ============================================= */
+/* ================ FAQ SECTION ================ */
+/* ============================================= */
+
+
+.faq-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffcbcba4;
+}
+
+.faq-content {
+  padding: 0rem 5rem;
+}
+
+.faq-content>h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.faq-content>h4 {
+  margin-bottom: 1rem;
+  font-weight: 100;
+}
+
+.faq-content>button {
+  all: unset;
+  background: rebeccapurple;
+  padding: 0.4rem 2rem;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.faq-image {
+  margin-right: 13rem;
+}
+
+
+/* ================================================== */
+/* ================ Download SECTION ================ */
+/* ================================================== */
+
+.download-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 5rem;
+  flex-wrap: wrap;
+}
+
+.download-content>h1 {
+  font-size: 3rem;
+}
+
+.download-content>h1>span {
+  font-size: 2rem;
+}
+
+.submit-from {
+  border: 2px solid #333;
+  border-radius: 29px;
+  background: #ffdbdbfa;
+}
+
+.download-email>form>input {
+  all: unset;
+  all: unset;
+  margin-left: 2rem;
+}
+
+.download-email>form>button {
+  all: unset;
+  background: rebeccapurple;
+  padding: .5rem 3rem;
+  border-radius: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+/* ================================================ */
+/* ================ FOOTER SECTION ================ */
+/* ================================================ */
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: #3944F7;
+  flex-wrap: wrap;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.list-items {
+  margin: 0rem 1rem;
+  cursor: pointer;
+}
+
+.footer-logos {
+  margin: 0rem 1rem;
+  cursor: pointer;
+}
+
+.logos-list {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+
+@media screen and (max-width: 1592px) {
+  .header-image {
+    display: none;
+  }
+
+  .header-text {
+    margin-top: 8rem;
+    margin-left: 0rem;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  header {
+    height: auto;
+    padding: 2rem 2rem;
+  }
+
+  nav {
+    width: inherit;
+  }
+
+  .blog-card{
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width:859px) {
+  nav {
+    position: absolute;
+    top: 7rem;
+    width: 100%;
+  }
+
+  header {
+    padding: 2rem 0rem;
+  }
+  .nav-item {
+    padding: 1rem .5rem;
+}
+
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.company-items{
+  margin-top: 1rem;
+}
+
+
+/* ================== API Section ===================== */
+
+.card{
+  margin-top: 3rem;
+}
+
+
+/* ================== Blogs Section ===================== */
+.blog-card {
+  display: flex;
+  box-shadow: 0px 0px 9px 0px black;
+  border-radius: 54px 10px 15px 15px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.blog-cards {
+  justify-content: center;
+  padding: 2rem 0rem;
+}
+
+.blog-heading {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+/* ================== FAQ Section ===================== */
+.faq-image {
+  margin-right: 13rem;
+  display: none;
+}
+
+.faq-section {
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.faq-content {
+  padding: 0rem 1rem;
+}
+
+/* ================== Download Section ===================== */
+.download-section {
+  justify-content: center;
+  padding: 3rem 0rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.download-email>form>input {
+  margin-left: 0rem;
+}
+
+.submit-from {
+  max-width: 20rem;
+  text-align: center;
+  height: 3rem;
+}
+
+.download-email>form>button{
+  margin-top: 2rem;
+}
+
+
+/* ================== Footer Section ===================== */
+
+.footer-logos {
+  margin: 1rem 1rem;
+}
+
+
+}

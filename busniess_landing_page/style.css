@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;0,700;0,800;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 4rem 7rem;
+}
+
+.btn {
+    all: unset;
+    color: #fff;
+    background: #8BB7A2;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+/* ================ Text Shortcuts ================ */
+.t-w {
+    color: #fff;
+}
+
+.t-b {
+    color: #333;
+}
+
+
+t-center {
+    text-align: center;
+}
+
+.tc {
+    text-align: center;
+}
+
+.t-heading {
+    font-size: clamp(1.5rem, 5vw, 2.6rem);
+}
+
+.my-1 {
+    margin-top: 1rem;
+}
+
+.my-2 {
+    margin-top: 2rem;
+}
+
+.my-3 {
+    margin-top: 3rem;
+}
+
+.my-5 {
+    margin-top: 5rem;
+}
+
+.p-heading {
+    font-size: clamp(1.5rem, 5vw, 3.5rem);
+}
+
+
+/* ================ flex Shortcuts ================ */
+.f {
+    display: flex;
+}
+
+.ac {
+    align-items: center;
+}
+
+.j-sb {
+    justify-content: space-between;
+}
+
+.j-sa {
+    justify-content: space-around;
+}
+
+.f-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fw {
+    flex-wrap: wrap;
+}
+
+/* ======== Sizing ========= */
+.img-w {
+    width: 33rem;
+}
+
+.ff {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* ============================================== */
+/* ================== Header Seactioni======================= */
+/* ============================================== */
+
+header {
+    background-color: #636C79;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    padding: 3rem 5rem;
+}
+
+nav>ul>li>a {
+    all: unset;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0rem 2rem;
+    color: #fff;
+}
+
+.btn_nav {
+    all: unset;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1rem 3rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* ==== Hero Section ===== */
+
+.hero {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero>img {
+    width: 33rem;
+}
+
+.right {
+    max-width: 48rem;
+}
+
+.hero>.right>h1 {
+    font-size: clamp(1.5rem, 5vw, 5rem);
+}
+
+.hero>.right>p {
+    font-size: 1.5rem;
+    padding: 2rem 0rem;
+}
+
+
+.input_email {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 36rem;
+    padding: .5rem 1rem;
+    border-radius: 2px;
+    margin-top: 2rem;
+}
+
+#input {
+    all: unset;
+}
+
+
+
+/* ============================================== */
+/* ================== Company Stats Seactioni======================= */
+/* ============================================== */
+
+.stats {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.stats>img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.stats_data {
+    margin-top: 3rem;
+}
+
+.stats>h1 {}
+
+.stats_info {}
+
+
+.stats_info>p {}
+
+
+/* ============================================== */
+/* ================== Product One Seactioni======================= */
+/* ============================================== */
+
+.product_one>h1 {
+    font-size: clamp(1.5rem, 5vw, 3.5rem);
+}
+
+.main-section-one-left {
+    max-width: 50rem;
+}
+
+.main-section-one-left>h1 {
+    font-size: clamp(1.5rem, 5vw, 3.5rem);
+}
+
+.main-section-one-left>p {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    padding: 4rem 0rem;
+    line-height: 2rem;
+}
+
+
+
+/* ============================================== */
+/* ================== Product Two Section ======================= */
+/* ============================================== */
+
+.two_right>h1 {
+    font-size: clamp(1.5rem, 5vw, 3.5rem);
+}
+
+.two_right {
+    max-width: 50rem;
+}
+
+.two_right>p {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    padding: 4rem 0rem;
+    line-height: 2rem;
+}
+
+
+/* ============================================== */
+/* ================== Team Section ======================= */
+/* ============================================== */
+
+.team_image>img {
+    width: 28rem;
+}
+
+.team_image>h1 {
+    font-weight: 600;
+    padding: 1rem 0rem;
+}
+
+.upper_heading>h1 {
+    font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+.upper_heading>p {
+    font-size: clamp(.5rem, 3vw, 1.4rem);
+    line-height: 2.2rem;
+}
+
+
+/* ============================================== */
+/* ================== Footer Section ======================= */
+/* ============================================== */
+
+.footer {
+    background-color: #0D0D0D;
+}
+
+.footer_uppter {
+    padding-bottom: 4rem;
+}
+
+.footer_social_icons>i {
+    color: #fff;
+    font-size: 1.5rem;
+    background: #242B2E;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.footer_bottom {
+    margin-top: 5rem;
+}
+
+.genarel_info>p,
+.genarel_info>h3 {
+    margin-top: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1150px) {
+    nav {
+        padding: 2rem 1rem;
+        flex-direction: column;
+    }
+
+    .team_images {
+        justify-content: center;
+    }
+
+    .team_image>img {
+        width: 28rem;
+        margin-left: 2rem;
+        margin-top: 4rem;
+    }
+    .team_image{
+        text-align: center;
+    }
+    .team_image>h1 {
+        font-weight: 600;
+        padding: 0.3rem 0rem;
+    }
+}
+
+@media screen and (max-width:903px) {
+    nav>ul>li>a {
+        margin: 0rem .5rem;
+    }
+
+    nav>ul {
+        margin-top: 1.5rem;
+    }
+
+    nav {
+        padding: 2rem .3rem;
+    }
+
+    .btn_nav {
+        padding: .5rem 1rem;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width:521px) {
+    nav>ul>li>a {
+        font-size: .6rem;
+    }
+
+    .btn_nav {
+        font-size: .6rem;
+    }
+
+    .btn {
+        padding: 1rem 1rem;
+        font-size: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    /* ============= Hero =============== */
+    .product_one,
+    .product_two {
+        text-align: center;
+    }
+
+    .main-section-one-left>p {
+        padding: 2rem 0rem;
+    }
+
+    /* ============= Product one =============== */
+    .main-section-one-left {
+        margin-bottom: 2rem;
+    }
+
+    /* ============= Product Two =============== */
+    .product_two {
+        flex-direction: column-reverse;
+    }
+
+    .product_two>img {
+        width: 23rem;
+        margin-top: 2rem;
+    }
+
+      /* ============= Team section =============== */
+      .upper_heading>p {
+        font-size: clamp(.8rem, 3vw, 1.4rem);
+        line-height: 1.2rem;
+        margin-top: .5rem;
+    }
+      .team_image>img {
+        width: 22rem;
+        margin-left: 0rem;
+        margin-top: 4rem;
+    }
+    .team_image{
+        text-align: center;
+    }
+    .team_image>h1 {
+        font-weight: 600;
+        padding: 0.3rem 0rem;
+    }
+
+      /* ============= Footer section =============== */
+    .footer_social_icons{
+        margin-top: 2rem;
+    }
+
+
+}

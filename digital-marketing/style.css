@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-blue: #5955B3;
+    --secend-blue: #5955B3;
+    --text-dark: #3C2F60;
+}
+
+
+/* ============================================= */
+/* ======================= Navber ====================== */
+/* ============================================= */
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 3rem 6rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+ul>li {
+    all: unset;
+}
+
+ul>li>a {
+    all: unset;
+    color: #555;
+    margin: 0rem 2rem;
+    cursor: pointer;
+}
+
+.active {
+    font-weight: 800;
+    color: #333;
+}
+
+.btn-nav {
+    all: unset;
+    float: right;
+    color: #fff;
+    background-color: var(--primary-blue);
+    position: absolute;
+    right: 6rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* ============================================= */
+/* ======================= Hero ====================== */
+/* ============================================= */
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_left {
+    max-width: 35rem;
+    margin-left: 7rem;
+}
+
+.hero_left>h1 {
+    color: var(--text-dark);
+    font-size: clamp(2rem, 5vw, 5.5rem);
+    line-height: 6rem;
+    font-weight: 600;
+}
+
+.hero_left>h1>span {
+    color: var(--secend-blue);
+}
+
+.hero_left>p {
+    color: #444;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+}
+
+.btn-hero {
+    all: unset;
+    color: #fff;
+    background-color: var(--primary-blue);
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 0.9rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5rem;
+}
+
+.hero > .image_div >img {
+    width: 115%;
+    position: relative;
+    left: -2rem;
+}
+
+
+
+
+@media screen and (max-width: 1124px) {
+    .hero_left>h1 {
+        line-height: initial;
+    }
+
+    .hero > .image_div >img {
+        width: 60%;
+        position: relative;
+        left: 6rem;
+    }
+
+    nav {
+        margin: 1rem 3rem;
+    }
+
+    .btn-nav {
+        right: 1rem;
+        font-size: 1.2rem;
+        padding: 0.8rem 2rem;
+    }
+
+    .hero_left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0rem;
+    }
+
+    .hero_left>p, .hero_left>h1 {
+        text-align: center;
+    }
+
+    .hero {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .hero_left>p {
+        color: #333;
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        /* text-shadow: 0 0 10px var(--primary-blue); */
+    }
+
+    .image_div {
+
+    }
+
+}
+
+
+@media screen and (max-width: 912px) {
+    nav {
+        flex-direction: column;
+        margin: 1rem .5rem;
+    }
+
+    nav>img {
+        position: absolute;
+        left: 1rem;
+    }
+
+
+    ul {
+        margin-top: 5rem;
+        font-size: .9rem;
+    }
+
+    ul>li>a {
+        margin: 0rem 2rem;
+        margin: 0rem 0.7rem;
+    }
+    .btn-hero {
+
+        margin-top: 3rem;
+    }
+
+    .hero_left>h1 {
+ 
+        margin-top: 2rem;
+    }
+    
+    
+}
